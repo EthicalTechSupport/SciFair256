@@ -1,0 +1,38 @@
+title       = Energy Minimization
+integrator  = steep
+emtol       = 10.0
+emstep      = 0.01
+nsteps      = 50000
+
+; Output control
+nstlog      = 100
+nstenergy   = 100
+energygrps  = Protein Membrane Solvent
+
+; Neighbor searching and cutoff scheme
+cutoff-scheme           = Verlet
+nstlist                 = 20
+rlist                   = 1.155
+ns-type                 = Linear
+periodic-molecules      = no
+verlet-buffer-tolerance = 0.005
+
+; Electrostatics
+coulombtype     = Reaction-Field
+coulomb-modifier= Potential-shift
+epsilon-r       = 15
+epsilon-rf      = 0
+rcoulomb        = 1.1
+rcoulomb-switch = 0
+
+; van der Waals
+vdwtype         = Cut-off
+vdw-modifier    = Potential-shift
+rvdw            = 1.1
+rvdw-switch     = 0
+DispCorr        = No
+table-extension = 1
+
+; PBC
+pbc = xyz
+

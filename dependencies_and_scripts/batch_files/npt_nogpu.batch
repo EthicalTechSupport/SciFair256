@@ -1,0 +1,18 @@
+#!/bin/bash
+#SBATCH -J NVT_nogpu
+#SBATCH -t 9:00:00
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=12
+
+#SBATCH -A zerze
+
+#SBATCH --mail-user=mtelikepalli@gmail.com
+#SBATCH --mail-type=BEGIN,END,FAIL
+
+##### Modules for loading Grace, GROMACS, and python
+module load GROMACS/2023.5-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0
+
+#### Sample of running a GROMACS code
+gmx grompp -f ./Dependencies_and_scripts/mdynamics/mdp_files/npt.mdp -c nvt.gro -r nvt.gro -p topol_updated.top -n index_named.ndx -o npt.tpr -maxwarn 2
+gmx mdrun -deffnm npt -ntomp 12 -v -ntmpi 1
+touch output_done_${SLURM_JOB_ID}.flag

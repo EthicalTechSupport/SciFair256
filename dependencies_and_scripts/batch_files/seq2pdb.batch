@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH -J alphafold_job
+#SBATCH -o alphafold.o%j
+#SBATCH --time=4:00:00
+#SBATCH --mem-per-cpu=4GB
+#SBATCH -A zerze
+#SBATCH --mail-user=mtelikepalli@gmail.com
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --ntasks-per-node=14
+#SBATCH -N 1
+#SBATCH --gpus=1
+
+# Load the AlphaFold module
+ml AlphaFold
+
+# Run AlphaFold and create done flag only if it succeeds
+run_alphafold.py \
+  --fasta_paths seq2pdb.fasta \
+  --output_dir . \
+  --max_template_date=2021-11-01 \
+  --use_gpu_relax \
+  --model_preset=monomer && touch output_done.flag

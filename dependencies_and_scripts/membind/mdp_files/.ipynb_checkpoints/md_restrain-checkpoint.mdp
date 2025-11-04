@@ -1,0 +1,53 @@
+; MD parameters for restrained window equilibration
+title                    = Restrained equilibration window
+define                   = -DPOSRES_B          ; Use position restraints on membrane (posres_B.itp)
+integrator               = md
+dt                       = 0.002               ; 2 fs timestep for Martini CG
+nsteps                   = 500000              ; 1 ns (adjust as needed)
+nstxout-compressed       = 5000                ; Write coordinates every 10 ps
+nstenergy                = 5000
+nstlog                   = 5000
+nstcalcenergy            = 5000
+comm-mode                = linear
+comm-grps                = Protein Non-Protein  ; Adjust groups per your system
+
+; Bond parameters
+constraint_algorithm     = lincs
+constraints             = all-bonds
+continuation             = no
+
+; Neighborsearching
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+rlist                    = 1.1
+rcoulomb                 = 1.1
+rvdw                     = 1.1
+
+; Electrostatics and van der Waals
+coulombtype              = Reaction-Field
+epsilon_r                = 15
+vdwtype                  = cut-off
+DispCorr                 = EnerPres
+
+; Temperature coupling
+tcoupl                   = Nose-Hoover
+tc-grps                  = Protein Non-Protein
+tau_t                    = 1.0 1.0
+ref_t                    = 310 310
+
+; Pressure coupling
+pcoupl                   = Parrinello-Rahman
+pcoupltype               = isotropic
+tau_p                    = 12.0
+compressibility          = 3e-4
+ref_p                    = 1.0
+
+; Periodic boundary conditions
+pbc                      = xyz
+
+; Velocity generation
+gen_vel                  = no
+
+; Pull code disabled here (restrain only)
+pull                     = no

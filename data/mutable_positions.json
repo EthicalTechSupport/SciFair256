@@ -1,0 +1,1262 @@
+{
+  "1": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "2": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "3": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "4": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "5": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "6": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "7": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "8": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "9": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "10": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "11": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "12": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "13": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "14": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "15": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "16": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "17": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "18": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "19": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "20": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "21": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "22": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "23": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "24": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "25": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "26": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "27": {
+    "status": "available",
+    "entropy": 0.8112781244591328,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "28": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "29": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "30": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "31": {
+    "status": "available",
+    "entropy": 0.8112781244591328,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "32": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "33": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "34": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "35": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "36": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "37": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "38": {
+    "status": "available",
+    "entropy": 0.5435644431995964,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "39": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "40": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "41": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "42": {
+    "status": "available",
+    "entropy": 0.5435644431995964,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "43": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "44": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "45": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "46": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "47": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "48": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "49": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "50": {
+    "status": "available",
+    "entropy": 0.8112781244591328,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "51": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "52": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "53": {
+    "status": "locked",
+    "entropy": 0.954434002924965,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "54": {
+    "status": "available",
+    "entropy": 0.8112781244591328,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "55": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "56": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "57": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "58": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "59": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "60": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "61": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "62": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "63": {
+    "status": "locked",
+    "entropy": 0.8112781244591328,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "64": {
+    "status": "available",
+    "entropy": 1.061278124459133,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "65": {
+    "status": "available",
+    "entropy": 1.061278124459133,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "66": {
+    "status": "available",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "67": {
+    "status": "available",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "68": {
+    "status": "target",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "69": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "70": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "71": {
+    "status": "target",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "72": {
+    "status": "target",
+    "entropy": 0.8112781244591328,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "73": {
+    "status": "target",
+    "entropy": 0.5916727785823275,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "74": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "75": {
+    "status": "target",
+    "entropy": 0.5916727785823275,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "76": {
+    "status": "target",
+    "entropy": 0.5916727785823275,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "77": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "78": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "79": {
+    "status": "target",
+    "entropy": 0.5916727785823275,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "80": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "81": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "82": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "83": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "84": {
+    "status": "target",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "85": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "86": {
+    "status": "target",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "87": {
+    "status": "target",
+    "entropy": 1.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "88": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "89": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "90": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "91": {
+    "status": "target",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "92": {
+    "status": "target",
+    "entropy": 0.5435644431995964,
+    "ss": "H",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "93": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "94": {
+    "status": "target",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "target",
+    "score": 5,
+    "rationale": "Passes all filters; prioritized by tier"
+  },
+  "95": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "target",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "96": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "97": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "98": {
+    "status": "locked",
+    "entropy": 0.8112781244591328,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "99": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "100": {
+    "status": "locked",
+    "entropy": 1.2987949406953985,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "101": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "102": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "103": {
+    "status": "locked",
+    "entropy": 1.75,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "104": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "105": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "106": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "107": {
+    "status": "locked",
+    "entropy": 1.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "108": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "109": {
+    "status": "locked",
+    "entropy": 1.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "110": {
+    "status": "locked",
+    "entropy": 1.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "lock",
+    "score": 0,
+    "rationale": "Locked by tier map"
+  },
+  "111": {
+    "status": "available",
+    "entropy": 1.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "112": {
+    "status": "available",
+    "entropy": 1.75,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "113": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "114": {
+    "status": "available",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "115": {
+    "status": "available",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "116": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Low entropy (-0.000 < 0.500)"
+  },
+  "117": {
+    "status": "available",
+    "entropy": 0.8112781244591328,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "118": {
+    "status": "available",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 4,
+    "rationale": "Passes all filters; allowed with caution"
+  },
+  "119": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "E",
+    "aligned": true,
+    "tier": "soft",
+    "score": 1,
+    "rationale": "Disallowed secondary structure: E"
+  },
+  "120": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "121": {
+    "status": "locked",
+    "entropy": 0.8112781244591328,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "122": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "123": {
+    "status": "locked",
+    "entropy": 1.061278124459133,
+    "ss": "E",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "124": {
+    "status": "locked",
+    "entropy": 0.5916727785823275,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "125": {
+    "status": "locked",
+    "entropy": 0.5916727785823275,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "126": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "127": {
+    "status": "locked",
+    "entropy": 1.75,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "128": {
+    "status": "locked",
+    "entropy": 1.5,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "129": {
+    "status": "locked",
+    "entropy": 0.5435644431995964,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "130": {
+    "status": "locked",
+    "entropy": 0.5916727785823275,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "131": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "132": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "133": {
+    "status": "locked",
+    "entropy": 0.5916727785823275,
+    "ss": "C",
+    "aligned": true,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "134": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "135": {
+    "status": "locked",
+    "entropy": 0.5916727785823275,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Known pathogenic mutation(s)"
+  },
+  "136": {
+    "status": "locked",
+    "entropy": 0.5916727785823275,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "137": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "138": {
+    "status": "locked",
+    "entropy": 0.5916727785823275,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "139": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  },
+  "140": {
+    "status": "locked",
+    "entropy": -0.0,
+    "ss": "C",
+    "aligned": false,
+    "tier": "soft",
+    "score": 0,
+    "rationale": "Locked: membrane-binding functional motif (publication)"
+  }
+}

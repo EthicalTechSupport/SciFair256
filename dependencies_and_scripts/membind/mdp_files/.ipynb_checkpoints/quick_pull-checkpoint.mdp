@@ -1,0 +1,54 @@
+title                    = Quick test pulling simulation
+;define                   = -DPOSRES_B          ; Position restraints on membrane
+
+integrator               = md
+dt                       = 0.02               ; or 0.005 for faster (but less stable)
+nsteps                   = 50000               ; 0.1 ns total
+nstxout-compressed       = 1000                ; write every 1 ps (0.002*500)
+nstenergy                = 5000
+nstlog                   = 5000
+
+constraints = none
+
+cutoff-scheme            = Verlet
+nstlist                  = 10
+ns_type                  = grid
+rlist                    = 1.1
+rcoulomb                 = 1.1
+rvdw                     = 1.1
+
+coulombtype              = Reaction-Field
+epsilon_r                = 15
+vdwtype                  = cut-off
+DispCorr                 = EnerPres
+
+tcoupl                   = Nose-Hoover
+tc-grps                  = Protein Non-Protein
+tau_t                    = 1.0 1.0
+ref_t                    = 310 310
+
+pcoupl                   = Parrinello-Rahman
+pcoupltype               = isotropic
+tau_p                    = 12.0
+compressibility          = 3e-4
+ref_p                    = 1.0
+
+pbc                      = xyz
+
+gen_vel                  = no
+gen_seed                 = -1
+
+pull                     = yes
+pull_ngroups             = 2
+pull_ncoords             = 1
+
+pull_group1_name         = N_Terminal
+pull_group2_name         = Upper_PO4
+
+pull_coord1_type         = umbrella
+pull_coord1_geometry     = distance
+pull_coord1_dim          = N N Y
+pull_coord1_groups       = 1 2
+pull_coord1_start        = yes
+pull_coord1_rate         = 0.01          ; 10x faster pulling rate
+pull_coord1_k            = 1000

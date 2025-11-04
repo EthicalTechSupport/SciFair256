@@ -1,0 +1,56 @@
+title                    = Quick Umbrella sampling window
+define                   = -DPOSRES_B
+
+integrator               = md
+dt                       = 0.02                
+nsteps                   = 50000               ; Short test run (~0.5 ns)
+nstxout-compressed       = 1000
+nstenergy                = 1000
+nstlog                   = 1000
+
+constraints              = none
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+rlist                    = 1.1
+rcoulomb                 = 1.1
+rvdw                     = 1.1
+
+coulombtype              = Reaction-Field
+epsilon_r                = 15
+vdwtype                  = cut-off
+DispCorr                 = EnerPres
+
+tcoupl                   = V-rescale
+tc-grps                  = Protein Non-Protein
+tau_t                    = 1.0 1.0
+ref_t                    = 310 310
+
+pcoupl                   = C-rescale
+pcoupltype               = isotropic
+tau_p                    = 12.0
+compressibility          = 3e-4
+ref_p                    = 1.0
+
+pbc                      = xyz
+
+gen_vel                  = no
+
+; Umbrella sampling: Restrain groups at fixed distance (no pulling)
+pull                     = yes
+pull_ngroups             = 2
+pull_ncoords             = 1
+
+pull_group1_name         = Protein
+pull_group2_name         = Upper_PO4
+
+
+pull-group1-pbcatom = 148
+pull_coord1_type         = umbrella
+pull_coord1_geometry     = distance
+pull_coord1_dim          = N N Y
+pull_coord1_groups       = 1 2
+pull_coord1_start        = no          ; Use distance from input config (restr_<nm>.gro)
+pull_coord1_rate         = 0.0         ; No pulling – harmonic restraint only
+pull_coord1_k            = 1000        ; kJ mol⁻¹ nm⁻² (umbrella spring constant)

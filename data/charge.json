@@ -1,0 +1,34 @@
+{
+  "residues": {
+    "A": 0,
+    "R": 1,
+    "N": 0,
+    "D": -1,
+    "C": 0,
+    "Q": 0,
+    "E": -1,
+    "G": 0,
+    "H": 0.1,
+    "I": 0,
+    "L": 0,
+    "K": 1,
+    "M": 0,
+    "F": 0,
+    "P": 0,
+    "S": 0,
+    "T": 0,
+    "W": 0,
+    "Y": 0,
+    "V": 0
+  },
+  "ambiguous": {
+    "B": -0.5,  
+    "Z": -0.5,  
+    "X": 0      
+  },
+  "termini": {
+    "N_term": 1,
+    "C_term": -1
+  },
+  "notes": "All charges are approximate net charges at pH 7.0. Histidine is modeled as partially protonated (0.1). Terminal charges are included separately."
+}

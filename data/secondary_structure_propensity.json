@@ -1,0 +1,25 @@
+{
+  "residues": {
+    "A": {"helix": 1.45, "sheet": 0.97, "coil": 0.77},
+    "R": {"helix": 1.00, "sheet": 0.90, "coil": 0.95},
+    "N": {"helix": 0.67, "sheet": 0.89, "coil": 1.56},
+    "D": {"helix": 1.01, "sheet": 0.54, "coil": 1.46},
+    "C": {"helix": 0.77, "sheet": 1.30, "coil": 1.19},
+    "Q": {"helix": 1.11, "sheet": 1.10, "coil": 0.98},
+    "E": {"helix": 1.51, "sheet": 0.37, "coil": 1.23},
+    "G": {"helix": 0.57, "sheet": 0.75, "coil": 1.64},
+    "H": {"helix": 1.00, "sheet": 0.87, "coil": 1.00},
+    "I": {"helix": 1.08, "sheet": 1.60, "coil": 0.47},
+    "L": {"helix": 1.34, "sheet": 1.22, "coil": 0.59},
+    "K": {"helix": 1.07, "sheet": 0.74, "coil": 1.01},
+    "M": {"helix": 1.20, "sheet": 1.67, "coil": 0.60},
+    "F": {"helix": 1.12, "sheet": 1.28, "coil": 0.59},
+    "P": {"helix": 0.59, "sheet": 0.62, "coil": 1.52},
+    "S": {"helix": 0.79, "sheet": 0.72, "coil": 1.43},
+    "T": {"helix": 0.82, "sheet": 1.20, "coil": 1.19},
+    "W": {"helix": 1.14, "sheet": 1.19, "coil": 0.66},
+    "Y": {"helix": 0.61, "sheet": 1.29, "coil": 1.19},
+    "V": {"helix": 1.06, "sheet": 1.70, "coil": 0.53}
+  },
+  "notes": "Chou-Fasman secondary structure propensities. Values >1 indicate higher propensity for that structure."
+}

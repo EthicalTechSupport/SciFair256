@@ -1,0 +1,14 @@
+{
+    "docking_score": -39.1390,
+    "gibbs_free_energy": -32.132,
+    "avg_lipid_contacts": 36.28,
+    "fibrils": 3,
+    "longest_fibril": 12,
+    "mass_frac": 0.20,
+    "avg_fibril_length": 4.5,
+    "nucleation": 2,
+    "secondary": 1,
+    "fragmentation": 0,
+    "elongation": 3
+  }
+  

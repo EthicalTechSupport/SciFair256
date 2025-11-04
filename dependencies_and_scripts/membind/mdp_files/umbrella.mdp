@@ -1,0 +1,59 @@
+title                    = Umbrella sampling window
+; define                 = -DPOSRES_B  ; position restraints not used
+
+integrator               = md
+dt                       = 0.02              ; 20 fs timestep (Martini)
+nsteps                   = 2500000           ; 50 ns window sampling
+nstxout-compressed       = 5000
+nstenergy                = 5000
+nstlog                   = 5000
+
+constraints              = none
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+rlist                    = 1.235
+rcoulomb                 = 1.1
+rvdw                     = 1.1
+
+coulombtype              = Reaction-Field
+epsilon_r                = 15
+epsilon_rf = 0
+vdwtype                  = cut-off
+DispCorr                 = No
+
+tcoupl                   = V-rescale
+tc-grps                  = Protein Non-Protein
+tau_t                    = 1.0 1.0
+ref_t                    = 323 323
+nsttcouple               = 10
+refcoord_scaling = com
+
+pcoupl                   = C-rescale
+pcoupltype               = semiisotropic
+tau_p                    = 15
+compressibility          = 3e-4 3e-4
+ref_p                    = 1.0 1.0
+nstpcouple               = 100
+
+pbc                      = xyz
+gen_vel                  = no
+
+; Pull code with zero pulling rate to keep umbrella window restrained
+pull                     = yes
+pull-ngroups             = 2
+pull-ncoords             = 1
+
+pull-group1-name         = Protein
+pull-group1-pbcatom      = 148
+pull-group2-name         = Upper_PO4
+
+pull-coord1-type         = umbrella
+pull-coord1-geometry     = distance
+pull-coord1-dim          = N N Y
+pull-coord1-groups       = 1 2
+pull-coord1-start        = yes
+pull-coord1-rate         = 0.0
+pull-coord1-k            = 1000
+pull-pbc-ref-prev-step-com = yes

@@ -1,0 +1,67 @@
+title       = Pulling simulation
+define      = -DPOSRES_B
+
+; Integration
+integrator  = md
+dt          = 0.02
+nsteps      = 600000
+
+; Output control
+nstlog              = 1000
+nstenergy           = 1000
+nstxout-compressed  = 1000
+compressed-x-precision = 1000
+
+; Cutoffs
+cutoff-scheme        = Verlet
+rlist                = 1.235
+nstlist              = 20
+coulombtype          = Reaction-Field
+coulomb-modifier     = Potential-shift
+rcoulomb             = 1.1
+epsilon-r            = 15
+epsilon-rf           = 0
+vdwtype              = Cut-off
+vdw-modifier         = Potential-shift
+rvdw                 = 1.1
+DispCorr             = No
+verlet-buffer-tolerance = 0.005
+
+; Temperature coupling
+tcoupl    = V-rescale
+tc-grps   = Protein Non-Protein
+tau_t     = 1.0 1.0
+ref_t     = 323 323
+
+; Pressure coupling
+pcoupl       = C-rescale
+pcoupltype   = semiisotropic
+tau_p        = 5
+compressibility = 3e-4 3e-4
+ref_p        = 1.0 1.0
+refcoord_scaling = com
+nstpcouple = 50
+
+; Constraints
+constraints = none
+
+; Periodic boundary conditions
+pbc = xyz
+
+; Pulling setup
+pull                 = yes
+pull-ngroups         = 2
+pull-ncoords         = 1
+pull-coord1-type     = umbrella
+pull-coord1-geometry = distance
+pull-coord1-groups   = 1 2
+pull-coord1-dim      = N N Y
+pull-coord1-start    = yes
+pull-coord1-rate     = 0.001
+pull-coord1-k        = 1000
+
+; Pull group names and PBC reference atoms
+pull-group1-name     = Protein
+pull-group2-name     = Upper_PO4
+pull-group1-pbcatom  = 148
+pull-pbc-ref-prev-step-com = yes

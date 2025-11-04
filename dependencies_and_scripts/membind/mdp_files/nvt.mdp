@@ -1,0 +1,57 @@
+title       = NVT_Equilibration
+define      = -DPOSRES
+
+; Integration
+integrator  = md
+dt          = 0.02
+nsteps      = 2500000
+
+; Output control
+nstxout     = 0
+nstvout     = 0
+nstfout     = 0
+nstenergy   = 100
+nstlog      = 100
+nstcalcenergy = 100
+nstxout-compressed = 5000
+compressed-x-precision = 1000
+
+; Cutoffs and neighbor list
+cutoff-scheme           = Verlet
+nstlist                 = 10
+rlist                   = 1.141
+coulombtype             = Reaction-Field
+coulomb-modifier        = Potential-shift
+rcoulomb-switch         = 0
+rcoulomb                = 1.1
+epsilon_r               = 15
+epsilon_rf              = 0
+vdwtype                 = Cut-off
+vdw-modifier            = Potential-shift
+rvdw                    = 1.1
+DispCorr                = No
+periodic-molecules      = no
+verlet-buffer-tolerance = 0.005
+
+; Temperature coupling
+tcoupl      = V-rescale
+tc-grps     = Protein Membrane Solvent
+tau_t       = 1.0 1.0 1.0
+ref_t       = 323 323 323
+nsttcouple  = 10
+
+; Constraints
+constraints = none
+
+; Periodic boundary conditions
+pbc         = xyz
+refcoord_scaling = COM
+
+; Velocity generation
+gen_vel     = yes
+gen_temp    = 323
+continuation = no
+
+; Pressure coupling (inactive)
+pcoupl      = No
+

@@ -1,0 +1,30 @@
+{
+  "residues": {
+    "A": 0.21,
+    "R": 0.68,
+    "N": 0.57,
+    "D": 0.63,
+    "C": 0.17,
+    "Q": 0.61,
+    "E": 0.64,
+    "G": 0.53,
+    "H": 0.53,
+    "I": 0.16,
+    "L": 0.16,
+    "K": 0.68,
+    "M": 0.23,
+    "F": 0.15,
+    "P": 0.45,
+    "S": 0.53,
+    "T": 0.50,
+    "W": 0.14,
+    "Y": 0.28,
+    "V": 0.15
+  },
+  "ambiguous": {
+    "B": 0.60,  
+    "Z": 0.62, 
+    "X": 0.45   
+  },
+  "notes": "Relative solvent accessibility baseline values from empirical protein structure data. Values closer to 1 indicate more surface exposure."
+}

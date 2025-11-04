@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH -J EM                          
+#SBATCH -t 0:30:00                                                           
+#SBATCH --ntasks-per-node=12                 
+#SBATCH --cpus-per-task=2                                                 
+
+#SBATCH -A zerze                             
+
+#SBATCH --mail-user=mtelikepalli@gmail.com
+#SBATCH --mail-type=BEGIN,END,FAIL           
+
+##### Modules for loading Grace, GROMACS, and python
+if [ -n "$NOGPU_JOB_ID" ]; then
+    echo "Cancelling no-GPU job $NOGPU_JOB_ID because GPU job $SLURM_JOB_ID started"
+    scancel $NOGPU_JOB_ID
+fi
+module load GROMACS/2023.5-foss-2023a-CUDA-12.1.1-PLUMED-2.9.0
+
+##### Sample of running a GROMACS code
+gmx grompp -f ./Dependencies_and_scripts/mdynamics/mdp_files/em.mdp -c system_solvated.gro -p topol_updated.top -n index_named.ndx -o em.tpr
+gmx mdrun -deffnm em -ntomp 24 -v -ntmpi 1
+touch output_done_${SLURM_JOB_ID}.flag 

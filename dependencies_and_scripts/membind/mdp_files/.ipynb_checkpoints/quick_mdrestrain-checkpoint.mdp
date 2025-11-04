@@ -1,0 +1,53 @@
+; Fast MD for restrained equilibration (utility only)
+title                    = Fast restrained equilibration window
+define                   = -DPOSRES_B
+integrator               = md
+dt                       = 0.002
+nsteps                   = 50000                ; 100 ps
+
+nstxout-compressed       = 1000                 ; every 2 ps
+nstenergy                = 1000
+nstlog                   = 1000
+nstcalcenergy            = 1000
+
+comm-mode                = linear
+comm-grps                = Protein Non-Protein
+
+; Bond parameters
+constraints     = none
+
+; Neighborsearching
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+rlist                    = 1.1
+rcoulomb                 = 1.1
+rvdw                     = 1.1
+
+; Electrostatics and van der Waals
+coulombtype              = Reaction-Field
+epsilon_r                = 15
+vdwtype                  = cut-off
+DispCorr                 = EnerPres
+
+; Temperature coupling
+tcoupl                   = Nose-Hoover
+tc-grps                  = Protein Non-Protein
+tau_t                    = 1.0 1.0
+ref_t                    = 310 310
+
+; Pressure coupling
+pcoupl                   = Parrinello-Rahman
+pcoupltype               = isotropic
+tau_p                    = 12.0
+compressibility          = 3e-4
+ref_p                    = 1.0
+
+; Periodic boundary conditions
+pbc                      = xyz
+
+; Velocity generation
+gen_vel                  = no
+
+; Pull code disabled here (restrain only)
+pull                     = no
