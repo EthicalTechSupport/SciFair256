@@ -1,0 +1,582 @@
+{
+  "1": {
+    "alpha_syn": "M",
+    "beta_syn": "M"
+  },
+  "2": {
+    "alpha_syn": "D",
+    "beta_syn": "D"
+  },
+  "3": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "4": {
+    "alpha_syn": "F",
+    "beta_syn": "F"
+  },
+  "5": {
+    "alpha_syn": "M",
+    "beta_syn": "M"
+  },
+  "6": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "7": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "8": {
+    "alpha_syn": "L",
+    "beta_syn": "L"
+  },
+  "9": {
+    "alpha_syn": "S",
+    "beta_syn": "S"
+  },
+  "10": {
+    "alpha_syn": "K",
+    "beta_syn": "M"
+  },
+  "11": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "12": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "13": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "14": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "15": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "16": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "17": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "18": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "19": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "20": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "21": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "22": {
+    "alpha_syn": "T",
+    "beta_syn": "T"
+  },
+  "23": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "24": {
+    "alpha_syn": "Q",
+    "beta_syn": "Q"
+  },
+  "25": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "26": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "27": {
+    "alpha_syn": "A",
+    "beta_syn": "T"
+  },
+  "28": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "29": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "30": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "31": {
+    "alpha_syn": "G",
+    "beta_syn": "E"
+  },
+  "32": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "33": {
+    "alpha_syn": "T",
+    "beta_syn": "T"
+  },
+  "34": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "35": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "36": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "37": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "38": {
+    "alpha_syn": "L",
+    "beta_syn": "L"
+  },
+  "39": {
+    "alpha_syn": "Y",
+    "beta_syn": "Y"
+  },
+  "40": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "41": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "42": {
+    "alpha_syn": "S",
+    "beta_syn": "S"
+  },
+  "43": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "44": {
+    "alpha_syn": "T",
+    "beta_syn": "T"
+  },
+  "45": {
+    "alpha_syn": "K",
+    "beta_syn": "R"
+  },
+  "46": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "47": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "48": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "49": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "50": {
+    "alpha_syn": "H",
+    "beta_syn": "Q"
+  },
+  "51": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "52": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "53": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "54": {
+    "alpha_syn": "T",
+    "beta_syn": "S"
+  },
+  "55": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "56": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "57": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "58": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "59": {
+    "alpha_syn": "T",
+    "beta_syn": "T"
+  },
+  "60": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "61": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "62": {
+    "alpha_syn": "Q",
+    "beta_syn": "Q"
+  },
+  "63": {
+    "alpha_syn": "V",
+    "beta_syn": "A"
+  },
+  "64": {
+    "alpha_syn": "T",
+    "beta_syn": "S"
+  },
+  "65": {
+    "alpha_syn": "N",
+    "beta_syn": "H"
+  },
+  "66": {
+    "alpha_syn": "V",
+    "beta_syn": "L"
+  },
+  "67": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "68": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "69": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "70": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "71": {
+    "alpha_syn": "V",
+    "beta_syn": "F"
+  },
+  "72": {
+    "alpha_syn": "T",
+    "beta_syn": "S"
+  },
+  "73": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "74": {
+    "alpha_syn": "V",
+    "beta_syn": null
+  },
+  "75": {
+    "alpha_syn": "T",
+    "beta_syn": null
+  },
+  "76": {
+    "alpha_syn": "A",
+    "beta_syn": null
+  },
+  "77": {
+    "alpha_syn": "V",
+    "beta_syn": null
+  },
+  "78": {
+    "alpha_syn": "A",
+    "beta_syn": null
+  },
+  "79": {
+    "alpha_syn": "Q",
+    "beta_syn": null
+  },
+  "80": {
+    "alpha_syn": "K",
+    "beta_syn": null
+  },
+  "81": {
+    "alpha_syn": "T",
+    "beta_syn": null
+  },
+  "82": {
+    "alpha_syn": "V",
+    "beta_syn": null
+  },
+  "83": {
+    "alpha_syn": "E",
+    "beta_syn": null
+  },
+  "84": {
+    "alpha_syn": "G",
+    "beta_syn": null
+  },
+  "85": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "86": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "87": {
+    "alpha_syn": "S",
+    "beta_syn": "N"
+  },
+  "88": {
+    "alpha_syn": "I",
+    "beta_syn": "I"
+  },
+  "89": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "90": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "91": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  },
+  "92": {
+    "alpha_syn": "T",
+    "beta_syn": "T"
+  },
+  "93": {
+    "alpha_syn": "G",
+    "beta_syn": "G"
+  },
+  "94": {
+    "alpha_syn": "F",
+    "beta_syn": "L"
+  },
+  "95": {
+    "alpha_syn": "V",
+    "beta_syn": "V"
+  },
+  "96": {
+    "alpha_syn": "K",
+    "beta_syn": "K"
+  },
+  "97": {
+    "alpha_syn": "K",
+    "beta_syn": "R"
+  },
+  "98": {
+    "alpha_syn": "D",
+    "beta_syn": "E"
+  },
+  "99": {
+    "alpha_syn": "Q",
+    "beta_syn": "E"
+  },
+  "100": {
+    "alpha_syn": "L",
+    "beta_syn": "F"
+  },
+  "101": {
+    "alpha_syn": "G",
+    "beta_syn": "P"
+  },
+  "102": {
+    "alpha_syn": "K",
+    "beta_syn": "T"
+  },
+  "103": {
+    "alpha_syn": "N",
+    "beta_syn": "D"
+  },
+  "104": {
+    "alpha_syn": "E",
+    "beta_syn": "L"
+  },
+  "105": {
+    "alpha_syn": "E",
+    "beta_syn": "K"
+  },
+  "106": {
+    "alpha_syn": "G",
+    "beta_syn": "P"
+  },
+  "107": {
+    "alpha_syn": null,
+    "beta_syn": "E"
+  },
+  "108": {
+    "alpha_syn": null,
+    "beta_syn": "E"
+  },
+  "109": {
+    "alpha_syn": null,
+    "beta_syn": "V"
+  },
+  "110": {
+    "alpha_syn": null,
+    "beta_syn": "A"
+  },
+  "111": {
+    "alpha_syn": null,
+    "beta_syn": "Q"
+  },
+  "112": {
+    "alpha_syn": "A",
+    "beta_syn": "E"
+  },
+  "113": {
+    "alpha_syn": "P",
+    "beta_syn": "A"
+  },
+  "114": {
+    "alpha_syn": "Q",
+    "beta_syn": "A"
+  },
+  "115": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "116": {
+    "alpha_syn": "G",
+    "beta_syn": "E"
+  },
+  "117": {
+    "alpha_syn": "I",
+    "beta_syn": "P"
+  },
+  "118": {
+    "alpha_syn": "L",
+    "beta_syn": "L"
+  },
+  "119": {
+    "alpha_syn": "E",
+    "beta_syn": "I"
+  },
+  "120": {
+    "alpha_syn": "D",
+    "beta_syn": "E"
+  },
+  "121": {
+    "alpha_syn": "M",
+    "beta_syn": "P"
+  },
+  "122": {
+    "alpha_syn": "P",
+    "beta_syn": "L"
+  },
+  "123": {
+    "alpha_syn": "V",
+    "beta_syn": "M"
+  },
+  "124": {
+    "alpha_syn": "D",
+    "beta_syn": "E"
+  },
+  "125": {
+    "alpha_syn": "P",
+    "beta_syn": "P"
+  },
+  "126": {
+    "alpha_syn": "D",
+    "beta_syn": "E"
+  },
+  "127": {
+    "alpha_syn": "N",
+    "beta_syn": "G"
+  },
+  "128": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "129": {
+    "alpha_syn": "A",
+    "beta_syn": "S"
+  },
+  "130": {
+    "alpha_syn": "Y",
+    "beta_syn": "Y"
+  },
+  "131": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "132": {
+    "alpha_syn": "M",
+    "beta_syn": "D"
+  },
+  "133": {
+    "alpha_syn": "P",
+    "beta_syn": "P"
+  },
+  "134": {
+    "alpha_syn": "S",
+    "beta_syn": "P"
+  },
+  "135": {
+    "alpha_syn": "E",
+    "beta_syn": "Q"
+  },
+  "136": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "137": {
+    "alpha_syn": "G",
+    "beta_syn": "E"
+  },
+  "138": {
+    "alpha_syn": "Y",
+    "beta_syn": "Y"
+  },
+  "139": {
+    "alpha_syn": "Q",
+    "beta_syn": "Q"
+  },
+  "140": {
+    "alpha_syn": "D",
+    "beta_syn": "E"
+  },
+  "141": {
+    "alpha_syn": "Y",
+    "beta_syn": "Y"
+  },
+  "142": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "143": {
+    "alpha_syn": "P",
+    "beta_syn": "P"
+  },
+  "144": {
+    "alpha_syn": "E",
+    "beta_syn": "E"
+  },
+  "145": {
+    "alpha_syn": "A",
+    "beta_syn": "A"
+  }
+}
